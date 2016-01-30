@@ -162,16 +162,13 @@ You write code only once, but it is read (and changed) many times. Write your co
 
 Quoting Martin Fowler:
 
-> Any fool can write code that a computer can understand.
+> Any fool can write code that a computer can understand.<br />
 > Good programmers write code that humans can understand.
 
-Prefer simple solutions over complex solutions. No over-engineering. No premature optimization. No premature abstraction.
-
-Be consistent in approach, naming and structure with the rest of the codebase. Do not reinvent the wheel.
-
-Write documentation explaining why the code exists, not what it does. Don't state the obvious.
-
-Use [object calisthenics](http://williamdurand.fr/2013/06/03/object-calisthenics/).
+* Prefer simple solutions over complex solutions. No over-engineering. No premature optimization. No premature abstraction.
+* Be consistent in approach, naming and structure with the rest of the codebase. Do not reinvent the wheel.
+* Write documentation explaining why the code exists, not what it does. Don't state the obvious.
+* Use [object calisthenics](http://williamdurand.fr/2013/06/03/object-calisthenics/).
 
 Not only on the scale of a method should your code be readable. Let the methods of a class tell the story of the class.
 
@@ -190,8 +187,11 @@ Don't ignore errors, edge cases or faulty input. If something is really wrong, s
 
 ### Example data
 
+##### URLs
 Use example.com, example.org and example.net for all example URLs and email addresses, per [RFC 2606](http://www.faqs.org/rfcs/rfc2606).
 
+##### Names
 Use english names like John Doe, Alice or Bob. Never use customer names.
 
+##### Identifiers
 For sample or temporary code, always use [meta syntactic variables](http://www.jargon.net/jargonfile/m/metasyntacticvariable.html) like `$foo`, `$bar`, `$baz` and `$quux`.
