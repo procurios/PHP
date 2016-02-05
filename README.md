@@ -172,6 +172,17 @@ Quoting Martin Fowler:
 
 Not only on the scale of a method should your code be readable. Let the methods of a class tell the story of the class.
 
+### Minimize the impact of change
+
+Bad code is hard to change, unstable, fragile and non-reusable. A small change can have unexpected
+and undetected effects anywhere.
+
+Design your code to minimize the ripple effect of a change.
+
+The [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) principles help to achieve this on
+the level of classes; The lesser known [RCC ASS principles](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
+do the same for packages, components or even entire systems.
+
 ### No assumptions
 
 Do not assume that:
