@@ -22,21 +22,6 @@ We basically follow the coding style related [PSR standards](http://www.php-fig.
 
 ### Differences from PSR
 
-#### Objects vs. Primitive types
-
-The name of a variable or property that is an object MUST be declared in PascalCase.
-The name of a variable or property that is a primitive type MUST be declared in camelCase.
-
-```php
-// bad
-$date = new DateTime();
-$Count = 1;
-
-// good
-$Date = new DateTime();
-$count = 1;
-```
-
 #### Spaces around concatenation
 
 The string concatenation operator MUST be preceded and followed by a space.
